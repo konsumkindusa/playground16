@@ -1,0 +1,18 @@
+<apex:component >
+<style>
+    h2{
+    font-weight:bold; 
+    color:white;
+    }
+    center{
+    color:white;
+    }
+</style>
+<div style="background-color:rgba(128, 0, 0, 0.53);border:solid 1px #ddd; border-style:groove">
+    <br/>
+    <h2><center> Smart Service Status: </center></h2>
+    <center> Connected</center>
+    <center>US-2794</center>
+    <br/>
+</div>
+</apex:component>

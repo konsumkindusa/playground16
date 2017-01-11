@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ecommerce User</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ecommerce Users</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Ecommerce Users --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>Ecommerce_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Created Date --></label>
+        <name>User_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Default Locale CD --></label>
+        <name>User_Default_Locale_CD__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Email --></label>
+        <name>User_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Fax --></label>
+        <name>User_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- User First Name --></label>
+        <name>User_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Last Login Date --></label>
+        <name>User_Last_Login_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Last Name --></label>
+        <name>User_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Telephone --></label>
+        <name>User_Telephone__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

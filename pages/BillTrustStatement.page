@@ -1,0 +1,79 @@
+<!--
+/**********************************************************************************************************
+* Name:                  -  Bill Trust 
+* Controller:            -  Account (Standard controller)
+* Controller Extension:  -  
+* Relates to User Story: -  US-0833
+* Description:           -  This page will allow the user to access invoice when they are on any given Account. 
+*             
+*
+* Modification Log :
+* 
+* 
+* ---------------------------------------------------------------------------------------------------------
+* Developer                Date           Description
+* ---------------------------------------------------------------------------------------------------------
+* Lakshmi Quinn            11/06/2015     - Initial creation.
+
+* ***********************************************************************************************************
+*   Outstanding Issues: 
+*
+-->
+
+<apex:page sidebar="false" showHeader="false">
+        <apex:includeScript value="/support/console/31.0/integration.js"/>
+    <script type="text/javascript">
+        function setTabTitleInConsole() {
+            //Set the current tab's title
+            sforce.console.setTabTitle('Bill Trust');
+        }
+        var pageLoad = window.onload;
+        window.onload = function() {
+            setTabTitleInConsole();
+        }
+    </script>
+
+  <style>
+    #initial {
+        visibility: hidden; 
+    }
+    #theframe {
+        visibility: hidden;
+      }
+    #postback {
+        visibility: hidden; 
+    }
+  </style>
+  <apex:includeScript value="//code.jquery.com/jquery-2.1.1.min.js"/>
+  <div id="initial">
+    <apex:iframe id="theFrame" src="https://secure.billtrust.com/customercare.php?PEmpCustName=idexx&PEmpUserName=salesrep&PEmpPassword=password"/>
+  </div>
+  <div id="postback">
+      <form id="postbackform" method="POST" action="https://secure.billtrust.com/cc81/ccResearch.php">
+          <input type="hidden" name="Command" value="SHOWACCTNUM" />
+          <input type="hidden" name="ShowAcctNum" value="{!$CurrentPage.parameters.sapId}" />
+      </form>
+  </div>
+  
+  <script>
+  function callIframe() {
+      var count = 0;
+      $('iframe#theFrame').load(function() {
+          var iframeLoggedIn = $('iframe')[0];
+          if (iframeLoggedIn) {
+              var iframeId = iframeLoggedIn.id;
+              if (iframeId && iframeId == 'theFrame') {
+                  count++;
+                  if (count > 1) {
+                      var btFormToSubmit = $('#postbackform');
+                      btFormToSubmit.submit();
+                      $('#postback').css("visibility", "visible"); 
+                  }
+              }
+          }   
+      });
+    }
+   callIframe();
+   </script>
+
+</apex:page>

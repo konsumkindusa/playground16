@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Sales History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Sales History1</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Customer Sales History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Currency 1 --></label>
+        <name>Currency_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency 2 --></label>
+        <name>Currency_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency 3 --></label>
+        <name>Currency_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 10 Months Ago --></label>
+        <name>HA_Quantity_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 11 Months Ago --></label>
+        <name>HA_Quantity_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 12 Months Ago --></label>
+        <name>HA_Quantity_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 13 Months Ago --></label>
+        <name>HA_Quantity_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 14 Months Ago --></label>
+        <name>HA_Quantity_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 15 Months Ago --></label>
+        <name>HA_Quantity_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 16 Months Ago --></label>
+        <name>HA_Quantity_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 17 Months Ago --></label>
+        <name>HA_Quantity_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 18 Months Ago --></label>
+        <name>HA_Quantity_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 19 Months Ago --></label>
+        <name>HA_Quantity_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 1 Month Ago --></label>
+        <name>HA_Quantity_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 20 Months Ago --></label>
+        <name>HA_Quantity_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 21 Months Ago --></label>
+        <name>HA_Quantity_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 22 Months Ago --></label>
+        <name>HA_Quantity_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 23 Months Ago --></label>
+        <name>HA_Quantity_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 24 Months Ago --></label>
+        <name>HA_Quantity_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 2 Months Ago --></label>
+        <name>HA_Quantity_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 3 Months Ago --></label>
+        <name>HA_Quantity_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 4 Months Ago --></label>
+        <name>HA_Quantity_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 5 Months Ago --></label>
+        <name>HA_Quantity_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 6 Months Ago --></label>
+        <name>HA_Quantity_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 7 Months Ago --></label>
+        <name>HA_Quantity_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 8 Months Ago --></label>
+        <name>HA_Quantity_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity 9 Months Ago --></label>
+        <name>HA_Quantity_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity Current Month Year Ago --></label>
+        <name>HA_Quantity_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Quantity Current Month --></label>
+        <name>HA_Quantity_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 10 Months Ago --></label>
+        <name>HA_Rev1_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 11 Months Ago --></label>
+        <name>HA_Rev1_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 12 Months Ago --></label>
+        <name>HA_Rev1_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 13 Months Ago --></label>
+        <name>HA_Rev1_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 14 Months Ago --></label>
+        <name>HA_Rev1_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 15 Months Ago --></label>
+        <name>HA_Rev1_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 16 Months Ago --></label>
+        <name>HA_Rev1_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 17 Months Ago --></label>
+        <name>HA_Rev1_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 18 Months Ago --></label>
+        <name>HA_Rev1_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 19 Months Ago --></label>
+        <name>HA_Rev1_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 1 Month Ago --></label>
+        <name>HA_Rev1_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 20 Months Ago --></label>
+        <name>HA_Rev1_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 21 Months Ago --></label>
+        <name>HA_Rev1_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 22 Months Ago --></label>
+        <name>HA_Rev1_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 23 Months Ago --></label>
+        <name>HA_Rev1_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 24 Months Ago --></label>
+        <name>HA_Rev1_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 2 Months Ago --></label>
+        <name>HA_Rev1_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 3 Months Ago --></label>
+        <name>HA_Rev1_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 4 Months Ago --></label>
+        <name>HA_Rev1_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 5 Months Ago --></label>
+        <name>HA_Rev1_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 6 Months Ago --></label>
+        <name>HA_Rev1_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 7 Months Ago --></label>
+        <name>HA_Rev1_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 8 Months Ago --></label>
+        <name>HA_Rev1_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 9 Months Ago --></label>
+        <name>HA_Rev1_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 Current Month Year Ago --></label>
+        <name>HA_Rev1_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev1 Current Month --></label>
+        <name>HA_Rev1_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 10 Months Ago --></label>
+        <name>HA_Rev2_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 11 Months Ago --></label>
+        <name>HA_Rev2_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 12 Months Ago --></label>
+        <name>HA_Rev2_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 13 Months Ago --></label>
+        <name>HA_Rev2_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 14 Months Ago --></label>
+        <name>HA_Rev2_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 15 Months Ago --></label>
+        <name>HA_Rev2_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 16 Months Ago --></label>
+        <name>HA_Rev2_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 17 Months Ago --></label>
+        <name>HA_Rev2_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 18 Months Ago --></label>
+        <name>HA_Rev2_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 19 Months Ago --></label>
+        <name>HA_Rev2_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 1 Month Ago --></label>
+        <name>HA_Rev2_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 20 Months Ago --></label>
+        <name>HA_Rev2_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 21 Months Ago --></label>
+        <name>HA_Rev2_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 22 Months Ago --></label>
+        <name>HA_Rev2_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 23 Months Ago --></label>
+        <name>HA_Rev2_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 24 Months Ago --></label>
+        <name>HA_Rev2_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 2 Months Ago --></label>
+        <name>HA_Rev2_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 3 Months Ago --></label>
+        <name>HA_Rev2_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 4 Months Ago --></label>
+        <name>HA_Rev2_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 5 Months Ago --></label>
+        <name>HA_Rev2_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 6 Months Ago --></label>
+        <name>HA_Rev2_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 7 Months Ago --></label>
+        <name>HA_Rev2_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 8 Months Ago --></label>
+        <name>HA_Rev2_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 9 Months Ago --></label>
+        <name>HA_Rev2_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 Current Month Year Ago --></label>
+        <name>HA_Rev2_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev2 Current Month --></label>
+        <name>HA_Rev2_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 10 Months Ago --></label>
+        <name>HA_Rev3_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 11 Months Ago --></label>
+        <name>HA_Rev3_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 12 Months Ago --></label>
+        <name>HA_Rev3_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 13 Months Ago --></label>
+        <name>HA_Rev3_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 14 Months Ago --></label>
+        <name>HA_Rev3_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 15 Months Ago --></label>
+        <name>HA_Rev3_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 16 Months Ago --></label>
+        <name>HA_Rev3_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 17 Months Ago --></label>
+        <name>HA_Rev3_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 18 Months Ago --></label>
+        <name>HA_Rev3_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 19 Months Ago --></label>
+        <name>HA_Rev3_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 1 Month Ago --></label>
+        <name>HA_Rev3_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 20 Months Ago --></label>
+        <name>HA_Rev3_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 21 Months Ago --></label>
+        <name>HA_Rev3_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 22 Months Ago --></label>
+        <name>HA_Rev3_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 23 Months Ago --></label>
+        <name>HA_Rev3_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 24 Months Ago --></label>
+        <name>HA_Rev3_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 2 Months Ago --></label>
+        <name>HA_Rev3_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 3 Months Ago --></label>
+        <name>HA_Rev3_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 4 Months Ago --></label>
+        <name>HA_Rev3_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 5 Months Ago --></label>
+        <name>HA_Rev3_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 6 Months Ago --></label>
+        <name>HA_Rev3_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 7 Months Ago --></label>
+        <name>HA_Rev3_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 8 Months Ago --></label>
+        <name>HA_Rev3_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 9 Months Ago --></label>
+        <name>HA_Rev3_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 Current Month Year Ago --></label>
+        <name>HA_Rev3_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HA Rev3 Current Month --></label>
+        <name>HA_Rev3_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 10 Months Ago --></label>
+        <name>HB_Quantity_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 11 Months Ago --></label>
+        <name>HB_Quantity_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 12 Months Ago --></label>
+        <name>HB_Quantity_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 13 Months Ago --></label>
+        <name>HB_Quantity_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 14 Months Ago --></label>
+        <name>HB_Quantity_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 15 Months Ago --></label>
+        <name>HB_Quantity_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 16 Months Ago --></label>
+        <name>HB_Quantity_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 17 Months Ago --></label>
+        <name>HB_Quantity_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 18 Months Ago --></label>
+        <name>HB_Quantity_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 19 Months Ago --></label>
+        <name>HB_Quantity_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 1 Month Ago --></label>
+        <name>HB_Quantity_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 20 Months Ago --></label>
+        <name>HB_Quantity_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 21 Months Ago --></label>
+        <name>HB_Quantity_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 22 Months Ago --></label>
+        <name>HB_Quantity_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 23 Months Ago --></label>
+        <name>HB_Quantity_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 24 Months Ago --></label>
+        <name>HB_Quantity_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 2 Months Ago --></label>
+        <name>HB_Quantity_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 3 Months Ago --></label>
+        <name>HB_Quantity_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 4 Months Ago --></label>
+        <name>HB_Quantity_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 5 Months Ago --></label>
+        <name>HB_Quantity_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 6 Months Ago --></label>
+        <name>HB_Quantity_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 7 Months Ago --></label>
+        <name>HB_Quantity_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 8 Months Ago --></label>
+        <name>HB_Quantity_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity 9 Months Ago --></label>
+        <name>HB_Quantity_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity Current Month Year Ago --></label>
+        <name>HB_Quantity_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Quantity Current Month --></label>
+        <name>HB_Quantity_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 10 Months Ago --></label>
+        <name>HB_Rev1_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 11 Months Ago --></label>
+        <name>HB_Rev1_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 12 Months Ago --></label>
+        <name>HB_Rev1_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 13 Months Ago --></label>
+        <name>HB_Rev1_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 14 Months Ago --></label>
+        <name>HB_Rev1_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 15 Months Ago --></label>
+        <name>HB_Rev1_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 16 Months Ago --></label>
+        <name>HB_Rev1_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 17 Months Ago --></label>
+        <name>HB_Rev1_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 18 Months Ago --></label>
+        <name>HB_Rev1_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 19 Months Ago --></label>
+        <name>HB_Rev1_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 1 Month Ago --></label>
+        <name>HB_Rev1_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 20 Months Ago --></label>
+        <name>HB_Rev1_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 21 Months Ago --></label>
+        <name>HB_Rev1_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 22 Months Ago --></label>
+        <name>HB_Rev1_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 23 Months Ago --></label>
+        <name>HB_Rev1_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 24 Months Ago --></label>
+        <name>HB_Rev1_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 2 Months Ago --></label>
+        <name>HB_Rev1_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 3 Months Ago --></label>
+        <name>HB_Rev1_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 4 Months Ago --></label>
+        <name>HB_Rev1_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 5 Months Ago --></label>
+        <name>HB_Rev1_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 6 Months Ago --></label>
+        <name>HB_Rev1_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 7 Months Ago --></label>
+        <name>HB_Rev1_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 8 Months Ago --></label>
+        <name>HB_Rev1_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 9 Months Ago --></label>
+        <name>HB_Rev1_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 Current Month Year Ago --></label>
+        <name>HB_Rev1_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev1 Current Month --></label>
+        <name>HB_Rev1_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 10 Months Ago --></label>
+        <name>HB_Rev2_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 11 Months Ago --></label>
+        <name>HB_Rev2_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 12 Months Ago --></label>
+        <name>HB_Rev2_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 13 Months Ago --></label>
+        <name>HB_Rev2_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 14 Months Ago --></label>
+        <name>HB_Rev2_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 15 Months Ago --></label>
+        <name>HB_Rev2_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 16 Months Ago --></label>
+        <name>HB_Rev2_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 17 Months Ago --></label>
+        <name>HB_Rev2_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 18 Months Ago --></label>
+        <name>HB_Rev2_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 19 Months Ago --></label>
+        <name>HB_Rev2_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 1 Month Ago --></label>
+        <name>HB_Rev2_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 20 Months Ago --></label>
+        <name>HB_Rev2_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 21 Months Ago --></label>
+        <name>HB_Rev2_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 22 Months Ago --></label>
+        <name>HB_Rev2_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 23 Months Ago --></label>
+        <name>HB_Rev2_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 24 Months Ago --></label>
+        <name>HB_Rev2_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 2 Months Ago --></label>
+        <name>HB_Rev2_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 3 Months Ago --></label>
+        <name>HB_Rev2_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 4 Months Ago --></label>
+        <name>HB_Rev2_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 5 Months Ago --></label>
+        <name>HB_Rev2_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 6 Months Ago --></label>
+        <name>HB_Rev2_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 7 Months Ago --></label>
+        <name>HB_Rev2_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 8 Months Ago --></label>
+        <name>HB_Rev2_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 9 Months Ago --></label>
+        <name>HB_Rev2_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 Current Month Year Ago --></label>
+        <name>HB_Rev2_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev2 Current Month --></label>
+        <name>HB_Rev2_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 10 Months Ago --></label>
+        <name>HB_Rev3_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 11 Months Ago --></label>
+        <name>HB_Rev3_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 12 Months Ago --></label>
+        <name>HB_Rev3_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 13 Months Ago --></label>
+        <name>HB_Rev3_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 14 Months Ago --></label>
+        <name>HB_Rev3_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 15 Months Ago --></label>
+        <name>HB_Rev3_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 16 Months Ago --></label>
+        <name>HB_Rev3_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 17 Months Ago --></label>
+        <name>HB_Rev3_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 18 Months Ago --></label>
+        <name>HB_Rev3_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 19 Months Ago --></label>
+        <name>HB_Rev3_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 1 Month Ago --></label>
+        <name>HB_Rev3_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 20 Months Ago --></label>
+        <name>HB_Rev3_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 21 Months Ago --></label>
+        <name>HB_Rev3_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 22 Months Ago --></label>
+        <name>HB_Rev3_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 23 Months Ago --></label>
+        <name>HB_Rev3_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 24 Months Ago --></label>
+        <name>HB_Rev3_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 2 Months Ago --></label>
+        <name>HB_Rev3_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 3 Months Ago --></label>
+        <name>HB_Rev3_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 4 Months Ago --></label>
+        <name>HB_Rev3_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 5 Months Ago --></label>
+        <name>HB_Rev3_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 6 Months Ago --></label>
+        <name>HB_Rev3_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 7 Months Ago --></label>
+        <name>HB_Rev3_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 8 Months Ago --></label>
+        <name>HB_Rev3_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 9 Months Ago --></label>
+        <name>HB_Rev3_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 Current Month Year Ago --></label>
+        <name>HB_Rev3_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- HB Rev3 Current Month --></label>
+        <name>HB_Rev3_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- L04 Quantity 1 Year Ago --></label>
+        <name>L04_Quantity_1_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- L04 Quantity YOY --></label>
+        <name>L04_Quantity_YOY__c</name>
+    </fields>
+    <fields>
+        <label><!-- L04 Quantity --></label>
+        <name>L04_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- L12YoY%Diff --></label>
+        <name>L12YoY_Diff__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual Quantity Value --></help>
+        <label><!-- L12 Quantity --></label>
+        <name>L12_Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual Revenue --></help>
+        <label><!-- L12 Revenue --></label>
+        <name>L12_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- L12 YOY --></label>
+        <name>L12_YOY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quarter Revenue data for last year --></help>
+        <label><!-- QTD Last Year --></label>
+        <name>QTD_Last_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gives the Quaterly generated Sales History (Revenue) --></help>
+        <label><!-- QTD --></label>
+        <name>QTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 10 Months Ago --></label>
+        <name>Quantity_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 11 Months Ago --></label>
+        <name>Quantity_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 12 Months Ago --></label>
+        <name>Quantity_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 13 Months Ago --></label>
+        <name>Quantity_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 14 Months Ago --></label>
+        <name>Quantity_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 15 Months Ago --></label>
+        <name>Quantity_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 16 Months Ago --></label>
+        <name>Quantity_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 17 Months Ago --></label>
+        <name>Quantity_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 18 Months Ago --></label>
+        <name>Quantity_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 19 Months Ago --></label>
+        <name>Quantity_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 1 Month Ago --></label>
+        <name>Quantity_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 20 Months Ago --></label>
+        <name>Quantity_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 21 Months Ago --></label>
+        <name>Quantity_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 22 Months Ago --></label>
+        <name>Quantity_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 23 Months Ago --></label>
+        <name>Quantity_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 24 Months Ago --></label>
+        <name>Quantity_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 2 Months Ago --></label>
+        <name>Quantity_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 3 Months Ago --></label>
+        <name>Quantity_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 4 Months Ago --></label>
+        <name>Quantity_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 5 Months Ago --></label>
+        <name>Quantity_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 6 Months Ago --></label>
+        <name>Quantity_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 7 Months Ago --></label>
+        <name>Quantity_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 8 Months Ago --></label>
+        <name>Quantity_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 9 Months Ago --></label>
+        <name>Quantity_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Current Month Year Ago --></label>
+        <name>Quantity_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Current Month --></label>
+        <name>Quantity_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 10 Months Ago --></label>
+        <name>Rev1_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 11 Months Ago --></label>
+        <name>Rev1_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 12 Months Ago --></label>
+        <name>Rev1_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 13 Months Ago --></label>
+        <name>Rev1_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 14 Months Ago --></label>
+        <name>Rev1_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 15 Months Ago --></label>
+        <name>Rev1_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 16 Months Ago --></label>
+        <name>Rev1_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 17 Months Ago --></label>
+        <name>Rev1_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 18 Months Ago --></label>
+        <name>Rev1_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 19 Months Ago --></label>
+        <name>Rev1_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 1 Month Ago --></label>
+        <name>Rev1_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 20 Months Ago --></label>
+        <name>Rev1_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 21 Months Ago --></label>
+        <name>Rev1_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 22 Months Ago --></label>
+        <name>Rev1_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 23 Months Ago --></label>
+        <name>Rev1_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 24 Months Ago --></label>
+        <name>Rev1_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 2 Months Ago --></label>
+        <name>Rev1_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 3 Months Ago --></label>
+        <name>Rev1_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 4 Months Ago --></label>
+        <name>Rev1_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 5 Months Ago --></label>
+        <name>Rev1_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 6 Months Ago --></label>
+        <name>Rev1_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 7 Months Ago --></label>
+        <name>Rev1_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 8 Months Ago --></label>
+        <name>Rev1_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 9 Months Ago --></label>
+        <name>Rev1_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 Current Month Year Ago --></label>
+        <name>Rev1_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev1 Current Month --></label>
+        <name>Rev1_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 10 Months Ago --></label>
+        <name>Rev2_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 11 Months Ago --></label>
+        <name>Rev2_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 12 Months Ago --></label>
+        <name>Rev2_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 13 Months Ago --></label>
+        <name>Rev2_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 14 Months Ago --></label>
+        <name>Rev2_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 15 Months Ago --></label>
+        <name>Rev2_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 16 Months Ago --></label>
+        <name>Rev2_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 17 Months Ago --></label>
+        <name>Rev2_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 18 Months Ago --></label>
+        <name>Rev2_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 19 Months Ago --></label>
+        <name>Rev2_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 1 Month Ago --></label>
+        <name>Rev2_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 20 Months Ago --></label>
+        <name>Rev2_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 21 Months Ago --></label>
+        <name>Rev2_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 22 Months Ago --></label>
+        <name>Rev2_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 23 Months Ago --></label>
+        <name>Rev2_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 24 Months Ago --></label>
+        <name>Rev2_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 2 Months Ago --></label>
+        <name>Rev2_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 3 Months Ago --></label>
+        <name>Rev2_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 4 Months Ago --></label>
+        <name>Rev2_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 5 Months Ago --></label>
+        <name>Rev2_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 6 Months Ago --></label>
+        <name>Rev2_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 7 Months Ago --></label>
+        <name>Rev2_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 8 Months Ago --></label>
+        <name>Rev2_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 9 Months Ago --></label>
+        <name>Rev2_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 Current Month Year Ago --></label>
+        <name>Rev2_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev2 Current Month --></label>
+        <name>Rev2_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 10 Months Ago --></label>
+        <name>Rev3_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 11 Months Ago --></label>
+        <name>Rev3_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 12 Months Ago --></label>
+        <name>Rev3_12_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 13 Months Ago --></label>
+        <name>Rev3_13_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 14 Months Ago --></label>
+        <name>Rev3_14_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 15 Months Ago --></label>
+        <name>Rev3_15_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 16 Months Ago --></label>
+        <name>Rev3_16_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 17 Months Ago --></label>
+        <name>Rev3_17_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 18 Months Ago --></label>
+        <name>Rev3_18_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 19 Months Ago --></label>
+        <name>Rev3_19_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 1 Month Ago --></label>
+        <name>Rev3_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 20 Months Ago --></label>
+        <name>Rev3_20_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 21 Months Ago --></label>
+        <name>Rev3_21_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 22 Months Ago --></label>
+        <name>Rev3_22_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 23 Months Ago --></label>
+        <name>Rev3_23_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 24 Months Ago --></label>
+        <name>Rev3_24_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 2 Months Ago --></label>
+        <name>Rev3_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 3 Months Ago --></label>
+        <name>Rev3_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 4 Months Ago --></label>
+        <name>Rev3_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 5 Months Ago --></label>
+        <name>Rev3_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 6 Months Ago --></label>
+        <name>Rev3_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 7 Months Ago --></label>
+        <name>Rev3_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 8 Months Ago --></label>
+        <name>Rev3_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 9 Months Ago --></label>
+        <name>Rev3_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 Current Month Year Ago --></label>
+        <name>Rev3_Current_Month_Year_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev3 Current Month --></label>
+        <name>Rev3_Current_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>SAP_Cust_Prod_Curr__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top5KitsandConsumablesAvg --></label>
+        <name>Top5KitsandConsumablesAvg__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of last 4 months- which means last 3 months and current month for quantity - kits and consumables only. --></help>
+        <label><!-- Top5KitsandConsumables --></label>
+        <name>Top5KitsandConsumables__c</name>
+    </fields>
+    <fields>
+        <label><!-- Units Sold --></label>
+        <name>Units_Sold__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_10_Months_Ago --></label>
+        <name>YOY_10_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_11_Months_Ago --></label>
+        <name>YOY_11_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_1_Month_Ago --></label>
+        <name>YOY_1_Month_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_2_Months_Ago --></label>
+        <name>YOY_2_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_3_Months_Ago --></label>
+        <name>YOY_3_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_4_Months_Ago --></label>
+        <name>YOY_4_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_5_Months_Ago --></label>
+        <name>YOY_5_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_6_Months_Ago --></label>
+        <name>YOY_6_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_7_Months_Ago --></label>
+        <name>YOY_7_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_8_Months_Ago --></label>
+        <name>YOY_8_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_9_Months_Ago --></label>
+        <name>YOY_9_Months_Ago__c</name>
+    </fields>
+    <fields>
+        <label><!-- YOY_CurrentMonth --></label>
+        <name>YOY_CurrentMonth__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

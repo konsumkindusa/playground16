@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Hierarchy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Hierarchy</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account_Lookup1__c</name>
+        <relationshipLabel><!-- Account Hierarchy --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>Cust_HierType_SalesOrg_DistChann_Div__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Hierarchy Type --></label>
+        <name>Customer_Hierarchy_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>Distribution_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Higher Level Account --></label>
+        <name>Higher_Level_Account__c</name>
+        <relationshipLabel><!-- Account Hierarchy (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Higher Level Customer Number --></label>
+        <name>Higher_Level_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Higher-level sales organization --></label>
+        <name>Higher_Level_Sales_Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Higher-level distribution channel --></label>
+        <name>Higher_level_distribution_channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Higher-level division --></label>
+        <name>Higher_level_division__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organization --></label>
+        <name>Sales_Organization__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

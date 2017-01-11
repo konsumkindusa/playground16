@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Full_Access_to_Optys_and_Quotes</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Full Access to Optys and Quotes</label>
+        <sharedTo>
+            <group>Profiles_Need_Full_Opty_Quote_Access</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

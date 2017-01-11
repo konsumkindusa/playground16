@@ -1,0 +1,29 @@
+<apex:component >
+	<h2>Top 5 Products</h2>
+	<table>
+		<th>Product Code</th>
+		<th>Quantity</th>
+		
+		<tr>
+			<td>PC1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>PC2</td>
+			<td>1</td>
+		</tr> 
+		<tr>
+			<td>PC3</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>PC4</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>PC5</td>
+			<td>2</td>
+		</tr>
+			
+	</table>
+</apex:component>

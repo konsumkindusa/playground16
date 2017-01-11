@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Header Logo for LPD Germany Email Template</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>germany, header, logo</keywords>
+    <name>LPD Germany Header Logo</name>
+    <public>true</public>
+</Document>

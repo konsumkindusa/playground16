@@ -1,0 +1,21 @@
+<apex:component >
+<style>
+    h2{
+    font-weight:bold; 
+    color:white;
+    }
+    center{
+    color:white;
+    }
+    a{
+    color:white;
+    }
+</style>
+<div style="background-color:rgba(128, 128, 128, 0.6);border:solid 1px #ddd; border-style:groove">
+    <br/>
+    <center>Hyperlink: </center>
+    <h2><center> <a href="/#" target="_blank"> Customer Specific Pricing</a> </center></h2>
+    <center>US-3270</center>
+    <br/>
+</div>
+</apex:component>

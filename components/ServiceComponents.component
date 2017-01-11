@@ -1,0 +1,10 @@
+<apex:component >
+<table>
+<div>
+<tr><c:SmartServiceStatus /></tr>
+</div>
+<div style="padding:5px;">
+<tr><c:VetConnectPlus /></tr>
+</div>
+</table>
+</apex:component>

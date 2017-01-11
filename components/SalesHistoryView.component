@@ -1,0 +1,13 @@
+<apex:component >
+<style>
+p{color:black;}
+</style>
+<div>
+    <p>
+    US-3217<br/>
+    -4 months year over Year Sales History<br/>
+    -13 months Sales History by Product<br/>
+    (Depicted Below)
+    </p>
+</div>
+</apex:component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Credit Card Type Number Validation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Credit Card Type Number Validation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Maximum Charecter --></label>
+        <name>Maximum_Charecter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Charecter --></label>
+        <name>Minimum_Charecter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Starts With --></label>
+        <name>Starts_With__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

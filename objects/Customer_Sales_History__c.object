@@ -1,0 +1,4086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores 24 months worth of customer sales history aggregated into 24 monthly buckets based on SAP customer number and a product hierarchy.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Customer Sales History</relationshipLabel>
+        <relationshipName>Customer_Sales_History</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Currency_1__c</fullName>
+        <description>Currency for rev1 fields.  Should always be USD.</description>
+        <externalId>false</externalId>
+        <label>Currency 1</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Currency_2__c</fullName>
+        <description>Currency for rev2 fields.  Should always be EUR.</description>
+        <externalId>false</externalId>
+        <label>Currency 2</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Currency_3__c</fullName>
+        <description>Currency for rev3 fields.  Will represent the local currency.</description>
+        <externalId>false</externalId>
+        <label>Currency 3</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 10 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 11 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 12 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 13 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 14 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 15 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 16 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 17 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 18 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 19 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 1 Month Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 20 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 21 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 22 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 23 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 24 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 2 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 3 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 4 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 5 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 6 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 7 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 8 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity 9 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity Current Month Year Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Quantity_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Quantity Current Month</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev1_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev1 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev2_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev2 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HA_Rev3_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HA Rev3 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 10 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 11 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 12 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 13 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 14 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 15 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 16 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 17 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 18 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 19 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 1 Month Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 20 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 21 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 22 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 23 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 24 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 2 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 3 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 4 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 5 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 6 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 7 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 8 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity 9 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity Current Month Year Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Quantity_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Quantity Current Month</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev1_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev1 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev2_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev2 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_13_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_14_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_15_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_16_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_17_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_18_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_19_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_20_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_21_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_22_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_23_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_Current_Month_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HB_Rev3_Current_Month__c</fullName>
+        <externalId>false</externalId>
+        <label>HB Rev3 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L04_Quantity_1_Year_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quantity_13_Months_Ago__c + Quantity_14_Months_Ago__c + Quantity_15_Months_Ago__c + Quantity_16_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L04 Quantity 1 Year Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L04_Quantity_YOY__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Quantity_1_Month_Ago__c + Quantity_2_Months_Ago__c + Quantity_3_Months_Ago__c + Quantity_4_Months_Ago__c) - (Quantity_13_Months_Ago__c + Quantity_14_Months_Ago__c + Quantity_15_Months_Ago__c + Quantity_16_Months_Ago__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L04 Quantity YOY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L04_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quantity_1_Month_Ago__c + Quantity_2_Months_Ago__c + Quantity_3_Months_Ago__c + Quantity_4_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L04 Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L12YoY_Diff__c</fullName>
+        <externalId>false</externalId>
+        <formula>(((L12_Revenue__c) - (L12_YOY__c)) * 100)/(L12_YOY__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L12YoY%Diff</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L12_Quantity__c</fullName>
+        <description>Annual Quantity Value</description>
+        <externalId>false</externalId>
+        <formula>Quantity_1_Month_Ago__c+
+                 Quantity_2_Months_Ago__c+
+                 Quantity_3_Months_Ago__c+ 
+                 Quantity_4_Months_Ago__c+ 
+                 Quantity_5_Months_Ago__c+ 
+                 Quantity_6_Months_Ago__c+
+                 Quantity_7_Months_Ago__c+ 
+                 Quantity_8_Months_Ago__c+ 
+                 Quantity_9_Months_Ago__c+ 
+                 Quantity_10_Months_Ago__c+ 
+                 Quantity_11_Months_Ago__c+ 
+				 Quantity_12_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Annual Quantity Value</inlineHelpText>
+        <label>L12 Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L12_Revenue__c</fullName>
+        <description>Annual Revenue</description>
+        <externalId>false</externalId>
+        <formula>Rev3_1_Month_Ago__c+
+				Rev3_2_Months_Ago__c+
+                Rev3_3_Months_Ago__c+
+                Rev3_4_Months_Ago__c+
+                Rev3_5_Months_Ago__c+
+                Rev3_6_Months_Ago__c+
+                Rev3_7_Months_Ago__c+
+                Rev3_8_Months_Ago__c+
+                Rev3_9_Months_Ago__c+
+                Rev3_10_Months_Ago__c+
+                Rev3_11_Months_Ago__c+
+                Rev3_12_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Annual Revenue</inlineHelpText>
+        <label>L12 Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L12_YOY__c</fullName>
+        <description>Annual Revenue for previous year</description>
+        <externalId>false</externalId>
+        <formula>Rev3_13_Months_Ago__c+
+Rev3_14_Months_Ago__c+
+Rev3_15_Months_Ago__c+
+Rev3_16_Months_Ago__c+
+Rev3_17_Months_Ago__c+
+Rev3_18_Months_Ago__c+
+Rev3_19_Months_Ago__c+
+Rev3_20_Months_Ago__c+
+Rev3_21_Months_Ago__c+
+Rev3_22_Months_Ago__c+
+Rev3_23_Months_Ago__c+
+Rev3_24_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L12 YOY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <description>Product Family</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Group__c</fullName>
+        <description>Product Group</description>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Line__c</fullName>
+        <description>Product Line</description>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <description>Product Name</description>
+        <externalId>false</externalId>
+        <label>Product Name</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <description>Product Type</description>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <length>50</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QTD_Last_Year__c</fullName>
+        <description>Quarter Revenue data for last year</description>
+        <externalId>false</externalId>
+        <formula>IF(((MONTH(TODAY()) == 1)||(MONTH(TODAY()) == 4)||(MONTH(TODAY()) == 7)||(MONTH(TODAY()) == 10)),Rev3_Current_Month_Year_Ago__c,IF(((MONTH(TODAY()) == 2)||(MONTH(TODAY()) == 5)||(MONTH(TODAY()) == 8)||(MONTH(TODAY()) == 11)),Rev3_Current_Month_Year_Ago__c + Rev3_13_Months_Ago__c,Rev3_Current_Month_Year_Ago__c + Rev3_13_Months_Ago__c + Rev3_14_Months_Ago__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Quarter Revenue data for last year</inlineHelpText>
+        <label>QTD Last Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QTD__c</fullName>
+        <description>Gives the Quaterly generated Sales History (Revenue)</description>
+        <externalId>false</externalId>
+        <formula>IF(((MONTH(TODAY()) == 1)||(MONTH(TODAY()) == 4)||(MONTH(TODAY()) == 7)||(MONTH(TODAY()) == 10)),Rev3_Current_Month__c,IF(((MONTH(TODAY()) == 2)||(MONTH(TODAY()) == 5)||(MONTH(TODAY()) == 8)||(MONTH(TODAY()) == 11)),Rev3_Current_Month__c + Rev3_1_Month_Ago__c,Rev3_Current_Month__c + Rev3_1_Month_Ago__c + Rev3_2_Months_Ago__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Gives the Quaterly generated Sales History (Revenue)</inlineHelpText>
+        <label>QTD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_10_Months_Ago__c</fullName>
+        <description>Quantity sold for ten months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 10 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_11_Months_Ago__c</fullName>
+        <description>Quantity sold for eleven months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 11 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantity 12 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_13_Months_Ago__c</fullName>
+        <description>Quantity sold for thirteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 13 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_14_Months_Ago__c</fullName>
+        <description>Quantity sold for fourteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 14 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_15_Months_Ago__c</fullName>
+        <description>Quantity sold for fifteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 15 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_16_Months_Ago__c</fullName>
+        <description>Quantity sold for sixteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 16 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_17_Months_Ago__c</fullName>
+        <description>Quantity sold for seventeen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 17 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_18_Months_Ago__c</fullName>
+        <description>Quantity sold for eighteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 18 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_19_Months_Ago__c</fullName>
+        <description>Quantity sold for nineteen months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 19 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_1_Month_Ago__c</fullName>
+        <description>Quantity sold for one month ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 1 Month Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_20_Months_Ago__c</fullName>
+        <description>Quantity sold for twenty months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 20 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_21_Months_Ago__c</fullName>
+        <description>Quantity sold for twenty one months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 21 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_22_Months_Ago__c</fullName>
+        <description>Quantity sold for twenty two months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 22 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_23_Months_Ago__c</fullName>
+        <description>Quantity sold for twenty three months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 23 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantity 24 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_2_Months_Ago__c</fullName>
+        <description>Quantity sold for two months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 2 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_3_Months_Ago__c</fullName>
+        <description>Quantity sold for three months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 3 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_4_Months_Ago__c</fullName>
+        <description>Quantity sold for four months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 4 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_5_Months_Ago__c</fullName>
+        <description>Quantity sold for five months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 5 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_6_Months_Ago__c</fullName>
+        <description>Quantity sold for six months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 6 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_7_Months_Ago__c</fullName>
+        <description>Quantity sold for seven months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 7 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_8_Months_Ago__c</fullName>
+        <description>Quantity sold for eight months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 8 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_9_Months_Ago__c</fullName>
+        <description>Quantity sold for nine months ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity 9 Months Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_Current_Month_Year_Ago__c</fullName>
+        <description>Quantity sold for current month a year ago.</description>
+        <externalId>false</externalId>
+        <label>Quantity Current Month Year Ago</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity_Current_Month__c</fullName>
+        <description>Quantity sold for current month.</description>
+        <externalId>false</externalId>
+        <label>Quantity Current Month</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_10_Months_Ago__c</fullName>
+        <description>Revenue for ten months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_11_Months_Ago__c</fullName>
+        <description>Revenue for eleven months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev1 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_13_Months_Ago__c</fullName>
+        <description>Revenue for thirteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_14_Months_Ago__c</fullName>
+        <description>Revenue for fourteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_15_Months_Ago__c</fullName>
+        <description>Revenue for fifteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_16_Months_Ago__c</fullName>
+        <description>Revenue for sixteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_17_Months_Ago__c</fullName>
+        <description>Revenue for seventeen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_18_Months_Ago__c</fullName>
+        <description>Revenue for eighteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_19_Months_Ago__c</fullName>
+        <description>Revenue for nineteen months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_1_Month_Ago__c</fullName>
+        <description>Revenue for one month ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_20_Months_Ago__c</fullName>
+        <description>Revenue for twenty months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_21_Months_Ago__c</fullName>
+        <description>Revenue for twenty one months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_22_Months_Ago__c</fullName>
+        <description>Revenue for twenty two months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_23_Months_Ago__c</fullName>
+        <description>Revenue for twenty three months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev1 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_2_Months_Ago__c</fullName>
+        <description>Revenue for two months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_3_Months_Ago__c</fullName>
+        <description>Revenue for three months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_4_Months_Ago__c</fullName>
+        <description>Revenue for four months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_5_Months_Ago__c</fullName>
+        <description>Revenue for five months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_6_Months_Ago__c</fullName>
+        <description>Revenue for six months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_7_Months_Ago__c</fullName>
+        <description>Revenue for seven months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_8_Months_Ago__c</fullName>
+        <description>Revenue for eight months ago in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_9_Months_Ago__c</fullName>
+        <description>Revenue for nine months ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_Current_Month_Year_Ago__c</fullName>
+        <description>Revenue for current month a year ago in the currency represented by the value in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev1_Current_Month__c</fullName>
+        <description>Revenue for current month in the currency represented in the Currency 1 field.</description>
+        <externalId>false</externalId>
+        <label>Rev1 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_10_Months_Ago__c</fullName>
+        <description>Revenue for ten months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_11_Months_Ago__c</fullName>
+        <description>Revenue for eleven months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev2 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_13_Months_Ago__c</fullName>
+        <description>Revenue for thirteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_14_Months_Ago__c</fullName>
+        <description>Revenue for fourteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_15_Months_Ago__c</fullName>
+        <description>Revenue for fourteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_16_Months_Ago__c</fullName>
+        <description>Revenue for sixteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_17_Months_Ago__c</fullName>
+        <description>Revenue for seventeen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_18_Months_Ago__c</fullName>
+        <description>Revenue for eighteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_19_Months_Ago__c</fullName>
+        <description>Revenue for nineteen months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_1_Month_Ago__c</fullName>
+        <description>Revenue for one month ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_20_Months_Ago__c</fullName>
+        <description>Revenue for twenty months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_21_Months_Ago__c</fullName>
+        <description>Revenue for twenty one months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_22_Months_Ago__c</fullName>
+        <description>Revenue for twenty two months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_23_Months_Ago__c</fullName>
+        <description>Revenue for twenty three months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev2 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_2_Months_Ago__c</fullName>
+        <description>Revenue for two months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_3_Months_Ago__c</fullName>
+        <description>Revenue for three months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_4_Months_Ago__c</fullName>
+        <description>Revenue for four months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_5_Months_Ago__c</fullName>
+        <description>Revenue for five months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_6_Months_Ago__c</fullName>
+        <description>Revenue for six months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_7_Months_Ago__c</fullName>
+        <description>Revenue for seven months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_8_Months_Ago__c</fullName>
+        <description>Revenue for eight months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_9_Months_Ago__c</fullName>
+        <description>Revenue for nine months ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_Current_Month_Year_Ago__c</fullName>
+        <description>Revenue for current month a year ago in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev2_Current_Month__c</fullName>
+        <description>Revenue for current month in the currency represented by the value in the Currency 2 field.</description>
+        <externalId>false</externalId>
+        <label>Rev2 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_10_Months_Ago__c</fullName>
+        <description>Revenue for ten months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 10 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_11_Months_Ago__c</fullName>
+        <description>Revenue for eleven months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 11 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_12_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev3 12 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_13_Months_Ago__c</fullName>
+        <description>Revenue for thirteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 13 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_14_Months_Ago__c</fullName>
+        <description>Revenue for fourteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 14 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_15_Months_Ago__c</fullName>
+        <description>Revenue for fourteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 15 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_16_Months_Ago__c</fullName>
+        <description>Revenue for sixteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 16 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_17_Months_Ago__c</fullName>
+        <description>Revenue for seventeen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 17 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_18_Months_Ago__c</fullName>
+        <description>Revenue for eighteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 18 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_19_Months_Ago__c</fullName>
+        <description>Revenue for nineteen months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 19 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_1_Month_Ago__c</fullName>
+        <description>Revenue for one month ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 1 Month Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_20_Months_Ago__c</fullName>
+        <description>Revenue for twenty months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 20 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_21_Months_Ago__c</fullName>
+        <description>Revenue for twenty one months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 21 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_22_Months_Ago__c</fullName>
+        <description>Revenue for twenty two months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 22 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_23_Months_Ago__c</fullName>
+        <description>Revenue for twenty three months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 23 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_24_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <label>Rev3 24 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_2_Months_Ago__c</fullName>
+        <description>Revenue for two months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 2 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_3_Months_Ago__c</fullName>
+        <description>Revenue for three months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 3 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_4_Months_Ago__c</fullName>
+        <description>Revenue for four months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 4 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_5_Months_Ago__c</fullName>
+        <description>Revenue for five months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 5 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_6_Months_Ago__c</fullName>
+        <description>Revenue for six months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 6 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_7_Months_Ago__c</fullName>
+        <description>Revenue for seven months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 7 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_8_Months_Ago__c</fullName>
+        <description>Revenue for eight months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 8 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_9_Months_Ago__c</fullName>
+        <description>Revenue for nine months ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 9 Months Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_Current_Month_Year_Ago__c</fullName>
+        <description>Revenue for current month a year ago in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 Current Month Year Ago</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev3_Current_Month__c</fullName>
+        <description>Revenue for current month in the currency represented by the value in the Currency 3 field.</description>
+        <externalId>false</externalId>
+        <label>Rev3 Current Month</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Cust_Prod_Curr__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Unique key used in data integration.</description>
+        <externalId>true</externalId>
+        <label>IDEXX Unique Key</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Customer_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>SAP Customer Number</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top5KitsandConsumablesAvg__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Quantity_Current_Month__c + Quantity_1_Month_Ago__c + Quantity_2_Months_Ago__c + Quantity_3_Months_Ago__c)/4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Top5KitsandConsumablesAvg</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top5KitsandConsumables__c</fullName>
+        <description>Sum of last 4 months- which means last 3 months and current month for quantity - kits and consumables only.</description>
+        <externalId>false</externalId>
+        <formula>Quantity_Current_Month__c + Quantity_1_Month_Ago__c + Quantity_2_Months_Ago__c + Quantity_3_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Sum of last 4 months- which means last 3 months and current month for quantity - kits and consumables only.</inlineHelpText>
+        <label>Top5KitsandConsumables</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Units_Sold__c</fullName>
+        <description>Total number of units sold in the past 2 years.</description>
+        <externalId>false</externalId>
+        <label>Units Sold</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_10_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_10_Months_Ago__c - Rev3_22_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_10_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_11_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_11_Months_Ago__c - Rev3_23_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_11_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_1_Month_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_1_Month_Ago__c - Rev3_13_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_1_Month_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_2_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_2_Months_Ago__c - Rev3_14_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_2_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_3_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_3_Months_Ago__c - Rev3_15_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_3_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_4_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_4_Months_Ago__c - Rev3_16_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_4_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_5_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_5_Months_Ago__c - Rev3_17_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_5_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_6_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_6_Months_Ago__c - Rev3_18_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_6_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_7_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_7_Months_Ago__c - Rev3_19_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_7_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_8_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_8_Months_Ago__c - Rev3_20_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_8_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_9_Months_Ago__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_9_Months_Ago__c - Rev3_21_Months_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_9_Months_Ago</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YOY_CurrentMonth__c</fullName>
+        <externalId>false</externalId>
+        <formula>Rev3_Current_Month__c - Rev3_Current_Month_Year_Ago__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YOY_CurrentMonth</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Customer Sales History</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>OBJECT_ID</columns>
+        <columns>SAP_Customer_Number__c</columns>
+        <columns>Account__c</columns>
+        <columns>Product_Family__c</columns>
+        <columns>Product_Group__c</columns>
+        <columns>Product_Line__c</columns>
+        <columns>Product_Name__c</columns>
+        <columns>Product_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Customer Sales History Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Customer Sales History1</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

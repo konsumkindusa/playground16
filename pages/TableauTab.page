@@ -1,0 +1,3 @@
+<apex:page sidebar="false" showHeader="true">
+<apex:iframe src="https://tableauq.idexx.com/t/americas/views/VDCCOMPASSAdmin/TerritoryOverview?:embed=y&:tabs=y&:showVizHome=y&:toolbar=top" height="750px" scrolling="true"/>
+</apex:page>

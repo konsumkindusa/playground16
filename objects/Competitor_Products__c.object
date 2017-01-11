@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom object created to add competitor&apos;s products, services, and contracts to the object associated with the related list and save for future use.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Look up relation to account with whom the Competitor Products will be associated</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Competitor Products</relationshipLabel>
+        <relationshipName>Competitor_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Digital</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Clientrax</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Heartworm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Competitor__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor</label>
+        <picklist>
+            <controllingField>Species_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Adiagen/Biomerieux</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Andiatec</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Anigen</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bayer</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Betastar</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Biocheck</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Biotracking/Biopryn</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BIVI/Svanova</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Charm</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delvo</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gerbion</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hipra</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IDVet</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inganasa</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neogen</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other - Homebrew Assay</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other - Palpation</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other - Traditional Method</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other - Ultrasound</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Portacheck</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Qiagen</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tetracore</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Thermo/Life Tech/Prionics</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unisensor</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VMRD</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zoetis/Synbiotics</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Contracts__c</fullName>
+        <description>Text field for storing product competitor&apos;s contracts</description>
+        <externalId>false</externalId>
+        <label>Contracts</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disease_Condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Disease/Condition</label>
+        <picklist>
+            <controllingField>Species_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Acute Enteric</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AE</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Aflatoxin</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ASFV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Avian Influenza</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Beta Lactam</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Beta Tetra</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BetaTetraPirlimycin</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bluetongue</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bovine Abortion</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bovine TB/M bovis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brucellosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BVDV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAEV/MVV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Calf Diarrhea</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CBPP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CCPP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chlamydiosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contagious Agalactia</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CSFV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EBL/BLV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Equine/Dist/MfgVar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fasciolosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FMD</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gentamicin</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hypodermosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IBD</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IBR/BHV-1</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IBV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ILT</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Macrolides</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mastitis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Melamine</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>M Hyopneumoniae</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Microbial Inhibitor</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mycoplasma</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NDV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neosporosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ORT</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Paratuberculosis/MAP</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PM</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poultry/Dist/MfgVar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pregnancy</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PRRS</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PRV/ADV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Q Fever</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quinolones</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>REO</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Respiratory Diseases</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>REV</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ruminant/Dist/MfgVar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Salmonella</fullName>
+                <default>false</default>
+                <controllingFieldValues>Poultry Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Schmallenberg Virus</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Somatic Cell Count</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Strep Chlor Tetra</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sulfamethazine</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Swine/Dist/MfgVar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Swine Influenza</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Swine Salmonella</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tetracycline</fullName>
+                <default>false</default>
+                <controllingFieldValues>Dairy Contaminants</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toxoplasmosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trichinellosis</fullName>
+                <default>false</default>
+                <controllingFieldValues>Swine Tests</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TSE</fullName>
+                <default>false</default>
+                <controllingFieldValues>Ruminant Tests</controllingFieldValues>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Test_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Test/Year</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>lookup to opportunity to allow users to associate competitor products on opportunities</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Competitor Products</relationshipLabel>
+        <relationshipName>Competitor_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Price_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Price/Test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Services__c</fullName>
+        <description>Text field to store information related to competitor services</description>
+        <externalId>false</externalId>
+        <label>Services</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Species_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Species/Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Dairy Contaminants</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Poultry Tests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Swine Tests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ruminant Tests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Ag ELISA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ab ELISA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PCR (yellow)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>POC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Competitor Product</label>
+    <nameField>
+        <label>Competitor Products Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Competitor Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>New_Competitor_Product</fullName>
+        <availability>online</availability>
+        <description>new competitor product from the opportunity related list</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Competitor Product</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a02/e?CF00Nj000000Asvnx={!Opportunity.Name}
+&amp;CF00Nj000000Asvnx_lkid={!Opportunity.Id}
+&amp;CF00Nj0000000j4xd={!Opportunity.Account}
+&amp;CF00Nj0000000j4xd_lkid={!Opportunity.AccountId}
+&amp;retURL=%2F{!Opportunity.Id}</url>
+    </webLinks>
+</CustomObject>

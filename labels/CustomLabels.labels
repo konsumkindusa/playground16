@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountActivityHistory1_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountActivityHistory1_LazyLoad</shortDescription>
+        <value>2500</value>
+    </labels>
+    <labels>
+        <fullName>AccountPointsData_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountPointsData_LazyLoad</shortDescription>
+        <value>7000</value>
+    </labels>
+    <labels>
+        <fullName>Assets_Competitive_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assets_Competitive_LazyLoad</shortDescription>
+        <value>15000</value>
+    </labels>
+    <labels>
+        <fullName>Assets_IDEXX_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assets_IDEXX_LazyLoad</shortDescription>
+        <value>13000</value>
+    </labels>
+    <labels>
+        <fullName>CAG</fullName>
+        <categories>Order Wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAG</shortDescription>
+        <value>CAG</value>
+    </labels>
+    <labels>
+        <fullName>CentrifyProfileName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CentrifyProfileName</shortDescription>
+        <value>System Integration</value>
+    </labels>
+    <labels>
+        <fullName>Delivery</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delivery</shortDescription>
+        <value>One week after account is set up</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Cap_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Cap Validation</shortDescription>
+        <value>Discount Entered cannot exceed the Discount Cap Value</value>
+    </labels>
+    <labels>
+        <fullName>Discount_Value_Exceed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Discount Value Exceed</shortDescription>
+        <value>The discount value can&apos;t be greater than total amount.</value>
+    </labels>
+    <labels>
+        <fullName>DummyProfileName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DummyProfileName</shortDescription>
+        <value>Marketing</value>
+    </labels>
+    <labels>
+        <fullName>Generic_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic Error Message</shortDescription>
+        <value>An error has occurred in the system. Please contact your System Administrator for further details.</value>
+    </labels>
+    <labels>
+        <fullName>HistoricalLoyaltyPoints_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HistoricalLoyaltyPoints_LazyLoad</shortDescription>
+        <value>9000</value>
+    </labels>
+    <labels>
+        <fullName>InlineCampaignsRelatedList_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InlineCampaignsRelatedList_LazyLoad</shortDescription>
+        <value>2500</value>
+    </labels>
+    <labels>
+        <fullName>LPD</fullName>
+        <categories>Order Wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LPD</shortDescription>
+        <value>LPD</value>
+    </labels>
+    <labels>
+        <fullName>LPD_Opportunity</fullName>
+        <categories>Case Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LPD Opportunity</shortDescription>
+        <value>LPD Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Log_An_Interaction_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Log An Interaction Error</shortDescription>
+        <value>Record cannot be created.</value>
+    </labels>
+    <labels>
+        <fullName>Log_An_Interaction_Recordtype</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Log An Interaction Recordtype</shortDescription>
+        <value>012j00000019Per</value>
+    </labels>
+    <labels>
+        <fullName>Negative_Win_Back</fullName>
+        <categories>Case Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Negative Win Back</shortDescription>
+        <value>Negative Win Back</value>
+    </labels>
+    <labels>
+        <fullName>No_records</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No records</shortDescription>
+        <value>No records to display</value>
+    </labels>
+    <labels>
+        <fullName>OrderProductSearchLimit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderProductSearchLimit</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>Order_History_Custom_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order History Custom Message</shortDescription>
+        <value>This Account record does not contain any Order History records in the External System. SAP Customer Number on the Account is used to map the Order History records. Please check if this is correctly populated.</value>
+    </labels>
+    <labels>
+        <fullName>P_S_Account_Conversion_Queue</fullName>
+        <categories>Queue</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P&amp;S Account Conversion Queue</shortDescription>
+        <value>P&amp;S Account Conversion Queue</value>
+    </labels>
+    <labels>
+        <fullName>PaginationValue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaginationValue</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>PaginationValue_OrderHistory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaginationValue_OrderHistory</shortDescription>
+        <value>300</value>
+    </labels>
+    <labels>
+        <fullName>ParentChildAcc_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ParentChildAcc_LazyLoad</shortDescription>
+        <value>11000</value>
+    </labels>
+    <labels>
+        <fullName>PaymetricXiGUID</fullName>
+        <categories>Paymetric</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymetricXiGUID</shortDescription>
+        <value>7b6ef620-ad4c-4785-9432-ddce953c3925</value>
+    </labels>
+    <labels>
+        <fullName>PaymetricXiPSK</fullName>
+        <categories>Paymetric</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymetricXiPSK</shortDescription>
+        <value>dF_2R5r*4!EgfA9$3=Cpo8/P{L7eYt-6</value>
+    </labels>
+    <labels>
+        <fullName>PaymetricXiURL</fullName>
+        <categories>Paymetric</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymetricXiURL</shortDescription>
+        <value>https://prdapp02.xisecurenet.com/diecomm</value>
+    </labels>
+    <labels>
+        <fullName>Points_Exceed_Balance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Points Exceed Balance</shortDescription>
+        <value>Points cannot exceed the available balance</value>
+    </labels>
+    <labels>
+        <fullName>Points_Exceed_Order_Cost</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Points Exceed Order Cost</shortDescription>
+        <value>Points cannot exceed the total net price of the order.</value>
+    </labels>
+    <labels>
+        <fullName>ProgramEnrollmentsErrorMessageNoRecords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display Message when there are no records to display</shortDescription>
+        <value>No records to display</value>
+    </labels>
+    <labels>
+        <fullName>ProgramEnrollmentsErrorMessageNoSAP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display Message when there is no SAP Customer Number on Account</shortDescription>
+        <value>SAP Customer Number is missing</value>
+    </labels>
+    <labels>
+        <fullName>ProgramEnrollments_LazyLoad</fullName>
+        <categories>Lazy Load</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProgramEnrollments_LazyLoad</shortDescription>
+        <value>2500</value>
+    </labels>
+    <labels>
+        <fullName>RT_Annuitized</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_Annuitized</shortDescription>
+        <value>Annuitized Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RT_BSSCase</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_BSSCase</shortDescription>
+        <value>Account Creation Case</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAGProspect</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_CAGProspect</shortDescription>
+        <value>CAG Prospect</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAG_Capital</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT CAG Capital</shortDescription>
+        <value>CAG Capital Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAG_Digital</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT CAG Digital</shortDescription>
+        <value>CAG Digital Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAG_IM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT CAG IM</shortDescription>
+        <value>CAG IM Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAG_New_Lab</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT CAG New Lab</shortDescription>
+        <value>CAG New Lab Business</value>
+    </labels>
+    <labels>
+        <fullName>RT_CAG_Prospect</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_CAG_Prospect</shortDescription>
+        <value>CAG Prospect</value>
+    </labels>
+    <labels>
+        <fullName>RT_CampaignActivity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_CampaignActivity</shortDescription>
+        <value>Campaign Activity</value>
+    </labels>
+    <labels>
+        <fullName>RT_Customer</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_Customer</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>RT_LPD_Opportunity</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_LPD_Opportunity</shortDescription>
+        <value>LPD Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RT_NetativeWinBack</fullName>
+        <categories>Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RT_NetativeWinBack</shortDescription>
+        <value>Negative Win Back</value>
+    </labels>
+    <labels>
+        <fullName>SOAPEndpointForLogin</fullName>
+        <categories>SOAP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOAPEndpointForLogin</shortDescription>
+        <value>https://login.salesforce.com/services/Soap/u/35.0/</value>
+    </labels>
+    <labels>
+        <fullName>Sales_History_Custom_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales History Custom Message</shortDescription>
+        <value>This Account record does not contain any sales history records in the External System. SAP Customer Number on the Account is used to map the sales history records, Please check if this is correctly populated.</value>
+    </labels>
+    <labels>
+        <fullName>Ship_To_Code</fullName>
+        <categories>Inline Order History Controller</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ship To Code</shortDescription>
+        <value>WE</value>
+    </labels>
+    <labels>
+        <fullName>Sold_To_Code</fullName>
+        <categories>Inline Order History Controller</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sold To Code</shortDescription>
+        <value>AG</value>
+    </labels>
+    <labels>
+        <fullName>Standard</fullName>
+        <categories>Order Wizard</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard</shortDescription>
+        <value>Standard</value>
+    </labels>
+    <labels>
+        <fullName>Synchronous_Create_Call</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Synchronous Create Call</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>Synchronous_Simulate_Call</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Synchronous Simulate Call</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>Tender</fullName>
+        <categories>Case Record Types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tender</shortDescription>
+        <value>Tender</value>
+    </labels>
+    <labels>
+        <fullName>Threshold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Threshold</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>True_flag</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>True flag</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>USD</fullName>
+        <categories>Currency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>USD</shortDescription>
+        <value>USD</value>
+    </labels>
+    <labels>
+        <fullName>etlusername</fullName>
+        <categories>ETL User</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>etlusername</shortDescription>
+        <value>etluser</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>As there are Integrations with the external systems in the application,  this object will be used to track the integration requests and response records 
+
+3 record types for this object are created 
+
+1. Integration Request: Log the Request structure and status 
+2. Integration Response: Log the Response structure and status
+3. Exception Logging : Log the exception details - in case of exception</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Class_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Class Name</label>
+        <length>220</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Detailed_Description__c</fullName>
+        <description>Used to track the complete exception string</description>
+        <externalId>false</externalId>
+        <label>Detailed Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Exception_Type__c</fullName>
+        <description>Used to track the type of the exception</description>
+        <externalId>false</externalId>
+        <label>Exception Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Integration_Point__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration Point</label>
+        <length>220</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Method_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Method Name</label>
+        <length>220</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_Body__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Body</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Request_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Request Sent?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Response_Body__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Body</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Integration Log</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Integration_Point__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Class_Name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Logs</fullName>
+        <columns>NAME</columns>
+        <columns>Class_Name__c</columns>
+        <columns>Exception_Type__c</columns>
+        <columns>Integration_Point__c</columns>
+        <columns>Method_Name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Logs</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Todays_Logs</fullName>
+        <columns>NAME</columns>
+        <columns>Class_Name__c</columns>
+        <columns>Exception_Type__c</columns>
+        <columns>Integration_Point__c</columns>
+        <columns>Method_Name__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Logs</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>IL-{0000}</displayFormat>
+        <label>Integration Log Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Integration Logs</pluralLabel>
+    <recordTypes>
+        <fullName>Exception_Log</fullName>
+        <active>true</active>
+        <description>To Log all the exceptions that arise during application development</description>
+        <label>Exception Log</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Integration_Request</fullName>
+        <active>true</active>
+        <description>To store all the system logs when Integration requests are made</description>
+        <label>Integration Request</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Integration_Response</fullName>
+        <active>true</active>
+        <description>To store the system logs of all the integration responses received</description>
+        <label>Integration Response</label>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

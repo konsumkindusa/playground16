@@ -1,0 +1,10 @@
+<apex:component >
+<table>
+<div>
+<tr><c:CustomerSpecificPricing /></tr>
+</div>
+<div>
+<tr><c:SalesHistoryView /></tr>
+</div>
+</table>
+</apex:component>

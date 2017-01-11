@@ -1,0 +1,13 @@
+<apex:component >
+	<b>Scheduled Orders</b>
+	
+	<table>
+		<th> Order No </th>
+		<th> Scheduled Date </th> 
+		
+		<tr>
+			<td>O-11321</td>
+			<td>01/01/2016</td>
+		</tr>
+	</table>
+</apex:component>

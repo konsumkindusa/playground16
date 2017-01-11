@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Salesview</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Salesview</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Salesview --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorization Group --></label>
+        <name>Authorization_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Group --></label>
+        <name>Customer_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel Code --></label>
+        <name>Distribution_Channel_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division Authorization --></label>
+        <name>Division_Authorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms1 --></label>
+        <name>Incoterms1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms 2 --></label>
+        <name>Incoterms_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Group --></label>
+        <name>Price_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>SalesOrg_DistChann_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales District --></label>
+        <name>Sales_District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Sales_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Group --></label>
+        <name>Sales_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organization Code --></label>
+        <name>Sales_Organization_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

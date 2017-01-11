@@ -1,0 +1,17 @@
+<apex:component >
+<style>
+    h2{
+    font-weight:bold; 
+    color:white;
+    }
+    center{
+    color:white;
+    }
+</style>
+<div style="background-color:rgba(128, 128, 128, 0.6);border:solid 1px #ddd; border-style:groove">
+    <br/>
+    <h2><center> VetConnect Plus Status:Connected</center></h2>
+    <center>US-2638</center>
+    <br/>
+</div>
+</apex:component>

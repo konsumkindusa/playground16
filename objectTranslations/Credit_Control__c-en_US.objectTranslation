@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Credit Control</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Credit Controls</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Credit Controls --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Blocked by Credit Management --></label>
+        <name>Blocked_by_Credit_Mgmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Control Area --></label>
+        <name>Credit_Control_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>Cust_CompCode_CredCtrlArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Company Code Description --></label>
+        <name>SAP_Company_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Competitor Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Competitor Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <relationshipLabel><!-- Competitor Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agreement --></label>
+        <name>Agreement__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Chemistry</masterLabel>
+            <translation><!-- Chemistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clientrax</masterLabel>
+            <translation><!-- Clientrax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartworm</masterLabel>
+            <translation><!-- Heartworm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Adiagen/Biomerieux</masterLabel>
+            <translation><!-- Adiagen/Biomerieux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andiatec</masterLabel>
+            <translation><!-- Andiatec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anigen</masterLabel>
+            <translation><!-- Anigen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIVI/Svanova</masterLabel>
+            <translation><!-- BIVI/Svanova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bayer</masterLabel>
+            <translation><!-- Bayer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Betastar</masterLabel>
+            <translation><!-- Betastar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biocheck</masterLabel>
+            <translation><!-- Biocheck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotracking/Biopryn</masterLabel>
+            <translation><!-- Biotracking/Biopryn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charm</masterLabel>
+            <translation><!-- Charm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delvo</masterLabel>
+            <translation><!-- Delvo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerbion</masterLabel>
+            <translation><!-- Gerbion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hipra</masterLabel>
+            <translation><!-- Hipra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDVet</masterLabel>
+            <translation><!-- IDVet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inganasa</masterLabel>
+            <translation><!-- Inganasa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neogen</masterLabel>
+            <translation><!-- Neogen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Homebrew Assay</masterLabel>
+            <translation><!-- Other - Homebrew Assay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Palpation</masterLabel>
+            <translation><!-- Other - Palpation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Traditional Method</masterLabel>
+            <translation><!-- Other - Traditional Method --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Ultrasound</masterLabel>
+            <translation><!-- Other - Ultrasound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portacheck</masterLabel>
+            <translation><!-- Portacheck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qiagen</masterLabel>
+            <translation><!-- Qiagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tetracore</masterLabel>
+            <translation><!-- Tetracore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thermo/Life Tech/Prionics</masterLabel>
+            <translation><!-- Thermo/Life Tech/Prionics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisensor</masterLabel>
+            <translation><!-- Unisensor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMRD</masterLabel>
+            <translation><!-- VMRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zoetis/Synbiotics</masterLabel>
+            <translation><!-- Zoetis/Synbiotics --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contracts --></label>
+        <name>Contracts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disease/Condition --></label>
+        <name>Disease_Condition__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation><!-- AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALV</masterLabel>
+            <translation><!-- ALV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APP</masterLabel>
+            <translation><!-- APP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APV</masterLabel>
+            <translation><!-- APV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASFV</masterLabel>
+            <translation><!-- ASFV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acute Enteric</masterLabel>
+            <translation><!-- Acute Enteric --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aflatoxin</masterLabel>
+            <translation><!-- Aflatoxin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avian Influenza</masterLabel>
+            <translation><!-- Avian Influenza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BVDV</masterLabel>
+            <translation><!-- BVDV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beta Lactam</masterLabel>
+            <translation><!-- Beta Lactam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beta Tetra</masterLabel>
+            <translation><!-- Beta Tetra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BetaTetraPirlimycin</masterLabel>
+            <translation><!-- BetaTetraPirlimycin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bluetongue</masterLabel>
+            <translation><!-- Bluetongue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bovine Abortion</masterLabel>
+            <translation><!-- Bovine Abortion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bovine TB/M bovis</masterLabel>
+            <translation><!-- Bovine TB/M bovis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brucellosis</masterLabel>
+            <translation><!-- Brucellosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAEV/MVV</masterLabel>
+            <translation><!-- CAEV/MVV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAV</masterLabel>
+            <translation><!-- CAV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBPP</masterLabel>
+            <translation><!-- CBPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCPP</masterLabel>
+            <translation><!-- CCPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSFV</masterLabel>
+            <translation><!-- CSFV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calf Diarrhea</masterLabel>
+            <translation><!-- Calf Diarrhea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chlamydiosis</masterLabel>
+            <translation><!-- Chlamydiosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contagious Agalactia</masterLabel>
+            <translation><!-- Contagious Agalactia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBL/BLV</masterLabel>
+            <translation><!-- EBL/BLV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine/Dist/MfgVar</masterLabel>
+            <translation><!-- Equine/Dist/MfgVar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMD</masterLabel>
+            <translation><!-- FMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fasciolosis</masterLabel>
+            <translation><!-- Fasciolosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gentamicin</masterLabel>
+            <translation><!-- Gentamicin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hypodermosis</masterLabel>
+            <translation><!-- Hypodermosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBD</masterLabel>
+            <translation><!-- IBD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBR/BHV-1</masterLabel>
+            <translation><!-- IBR/BHV-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBV</masterLabel>
+            <translation><!-- IBV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILT</masterLabel>
+            <translation><!-- ILT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M Hyopneumoniae</masterLabel>
+            <translation><!-- M Hyopneumoniae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrolides</masterLabel>
+            <translation><!-- Macrolides --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mastitis</masterLabel>
+            <translation><!-- Mastitis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melamine</masterLabel>
+            <translation><!-- Melamine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microbial Inhibitor</masterLabel>
+            <translation><!-- Microbial Inhibitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mycoplasma</masterLabel>
+            <translation><!-- Mycoplasma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDV</masterLabel>
+            <translation><!-- NDV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neosporosis</masterLabel>
+            <translation><!-- Neosporosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORT</masterLabel>
+            <translation><!-- ORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM</masterLabel>
+            <translation><!-- PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRRS</masterLabel>
+            <translation><!-- PRRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRV/ADV</masterLabel>
+            <translation><!-- PRV/ADV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paratuberculosis/MAP</masterLabel>
+            <translation><!-- Paratuberculosis/MAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry/Dist/MfgVar</masterLabel>
+            <translation><!-- Poultry/Dist/MfgVar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pregnancy</masterLabel>
+            <translation><!-- Pregnancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q Fever</masterLabel>
+            <translation><!-- Q Fever --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quinolones</masterLabel>
+            <translation><!-- Quinolones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REO</masterLabel>
+            <translation><!-- REO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REV</masterLabel>
+            <translation><!-- REV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory Diseases</masterLabel>
+            <translation><!-- Respiratory Diseases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruminant/Dist/MfgVar</masterLabel>
+            <translation><!-- Ruminant/Dist/MfgVar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salmonella</masterLabel>
+            <translation><!-- Salmonella --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schmallenberg Virus</masterLabel>
+            <translation><!-- Schmallenberg Virus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somatic Cell Count</masterLabel>
+            <translation><!-- Somatic Cell Count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strep Chlor Tetra</masterLabel>
+            <translation><!-- Strep Chlor Tetra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sulfamethazine</masterLabel>
+            <translation><!-- Sulfamethazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swine Influenza</masterLabel>
+            <translation><!-- Swine Influenza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swine Salmonella</masterLabel>
+            <translation><!-- Swine Salmonella --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swine/Dist/MfgVar</masterLabel>
+            <translation><!-- Swine/Dist/MfgVar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSE</masterLabel>
+            <translation><!-- TSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tetracycline</masterLabel>
+            <translation><!-- Tetracycline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toxoplasmosis</masterLabel>
+            <translation><!-- Toxoplasmosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trichinellosis</masterLabel>
+            <translation><!-- Trichinellosis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estimated Test/Year --></label>
+        <name>Estimated_Test_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Competitor Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price/Test --></label>
+        <name>Price_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services --></label>
+        <name>Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species/Type --></label>
+        <name>Species_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dairy Contaminants</masterLabel>
+            <translation><!-- Dairy Contaminants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry Tests</masterLabel>
+            <translation><!-- Poultry Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruminant Tests</masterLabel>
+            <translation><!-- Ruminant Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swine Tests</masterLabel>
+            <translation><!-- Swine Tests --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Ab ELISA</masterLabel>
+            <translation><!-- Ab ELISA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ag ELISA</masterLabel>
+            <translation><!-- Ag ELISA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCR (yellow)</masterLabel>
+            <translation><!-- PCR (yellow) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POC</masterLabel>
+            <translation><!-- POC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Competitor_Product --></label>
+        <name>New_Competitor_Product</name>
+    </webLinks>
+</CustomObjectTranslation>

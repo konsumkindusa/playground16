@@ -1,0 +1,6 @@
+<apex:page StandardController="Opportunity">
+  <!-- Begin Default Content REMOVE THIS -->
+<h1> You cannot create an Opportunity from here, Please go to Accounts and then create a new opportunity from the corresponding Account. </h1>
+   
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

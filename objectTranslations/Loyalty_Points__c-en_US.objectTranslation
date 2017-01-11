@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Loyalty Points</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Loyalty Points</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Loyalty Points --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Available Points --></label>
+        <name>Available_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiring On --></label>
+        <name>Expiring_Points_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiring Points --></label>
+        <name>Expiring_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Integration Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Integration Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>Class_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Description --></label>
+        <name>Detailed_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>Exception_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Point --></label>
+        <name>Integration_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method Name --></label>
+        <name>Method_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Body --></label>
+        <name>Request_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Sent? --></label>
+        <name>Request_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Body --></label>
+        <name>Response_Body__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Exception Log --></label>
+        <name>Exception_Log</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Integration Request --></label>
+        <name>Integration_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Integration Response --></label>
+        <name>Integration_Response</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

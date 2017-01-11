@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Sales View</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Sales Views</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountDistributionChannelCode --></label>
+        <name>AccountDistributionChannelCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountDivision --></label>
+        <name>AccountDivision__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountSalesOrganizationCode --></label>
+        <name>AccountSalesOrganizationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Sales Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Authorization Group --></label>
+        <name>Authorization_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Group --></label>
+        <name>Customer_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Region Code --></label>
+        <name>IDEXX_Region_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms1 --></label>
+        <name>Incoterms1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incoterms 2 --></label>
+        <name>Incoterms_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marked for Deletion Flag --></label>
+        <name>Marked_for_Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Block Code --></label>
+        <name>Order_Block_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Block Description --></label>
+        <name>Order_Block_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Group --></label>
+        <name>Price_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Customer Number --></label>
+        <name>SAP_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDEXX Unique Key --></label>
+        <name>SalesOrg_DistChann_Div_Cust__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesview --></label>
+        <name>SalesView__c</name>
+        <relationshipLabel><!-- Account Sales Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales District --></label>
+        <name>Sales_District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Group --></label>
+        <name>Sales_Group__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
