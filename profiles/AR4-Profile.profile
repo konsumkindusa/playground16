@@ -55,6 +55,16 @@
         <field>AR_webinar_Object__c.webinar_cust_field__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
     </layoutAssignments>
@@ -75,6 +85,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AR_webinar_Object__c-AR-webinar-Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
