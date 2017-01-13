@@ -3403,6 +3403,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Address</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4374,6 +4384,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Utilization_Statistics__c-Utilization Statistics Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
