@@ -630,6 +630,7 @@
         <members>Integration_Log__c.Response_Body__c</members>
         <members>LIMS__c.Account__c</members>
         <members>LIMS__c.LIMS_ID__c</members>
+        <members>LOLDivision__c.DivisionName__c</members>
         <members>LPD_And_CAG_Pricebook_Mapping__mdt.Material_Division__c</members>
         <members>Lab_Order__c.Accession_Number__c</members>
         <members>Lab_Order__c.Requisition_ID__c</members>
@@ -816,6 +817,7 @@
         <members>IntegrationLogSwitch__c</members>
         <members>Integration_Log__c</members>
         <members>LIMS__c</members>
+        <members>LOLDivision__c</members>
         <members>LPD_And_CAG_Pricebook_Mapping__mdt</members>
         <members>Lab_Order__c</members>
         <members>Land_O_Lakes__c</members>
@@ -888,6 +890,7 @@
         <members>Getting_Started_reg</members>
         <members>Integration_Log__c</members>
         <members>LIMS__c</members>
+        <members>LOLDivision__c</members>
         <members>Loyalty_Points__c</members>
         <members>Phone_Lookup__c</members>
         <members>Tableau</members>
@@ -1028,6 +1031,7 @@
         <members>Idexx_Parameter__mdt-Idexx Parameter Layout</members>
         <members>Integration_Log__c-Integration Log Layout</members>
         <members>LIMS__c-LIMS Layout</members>
+        <members>LOLDivision__c-LOLDivision Layout</members>
         <members>LPD_And_CAG_Pricebook_Mapping__mdt-LPD And CAG Pricebook Mapping Layout</members>
         <members>Lab_Order__c-Lab Order Layout</members>
         <members>Land_O_Lakes__c-Land O Lakes Layout</members>
@@ -1140,6 +1144,7 @@
         <members>Integration_Log__c.All</members>
         <members>Integration_Log__c.All_Logs</members>
         <members>Integration_Log__c.Todays_Logs</members>
+        <members>LOLDivision__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.EMEA_France_Leads_Lead</members>
         <members>Lead.EMEA_Germany_Leads_Lead</members>
@@ -1399,6 +1404,7 @@
         <members>IntegrationLogSwitch__c</members>
         <members>Integration_Log__c</members>
         <members>LIMS__c</members>
+        <members>LOLDivision__c</members>
         <members>Lab_Order__c</members>
         <members>Land_O_Lakes__c</members>
         <members>Lead</members>

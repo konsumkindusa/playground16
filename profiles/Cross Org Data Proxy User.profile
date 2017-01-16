@@ -3397,6 +3397,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>LOLDivision__c.DivisionName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>LPD_And_CAG_Pricebook_Mapping__mdt.Material_Division__c</field>
         <readable>false</readable>
@@ -4388,6 +4393,9 @@
     <layoutAssignments>
         <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>LOLDivision__c-LOLDivision Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -4483,6 +4491,10 @@
     <tabVisibilities>
         <tab>LIMS__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LOLDivision__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Loyalty_Points__c</tab>

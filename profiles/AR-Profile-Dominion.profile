@@ -57,6 +57,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LOLDivision__c.DivisionName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -89,6 +94,9 @@
     <layoutAssignments>
         <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>LOLDivision__c-LOLDivision Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -98,6 +106,10 @@
         <object>AR_webinar_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>LOLDivision__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
