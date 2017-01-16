@@ -631,6 +631,7 @@
         <members>LIMS__c.Account__c</members>
         <members>LIMS__c.LIMS_ID__c</members>
         <members>LOLDivision__c.DivisionName__c</members>
+        <members>LOLDivision__c.Division_Description__c</members>
         <members>LPD_And_CAG_Pricebook_Mapping__mdt.Material_Division__c</members>
         <members>Lab_Order__c.Accession_Number__c</members>
         <members>Lab_Order__c.Requisition_ID__c</members>

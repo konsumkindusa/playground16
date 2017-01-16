@@ -69,6 +69,17 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Division_Description__c</fullName>
+        <description>Division Description</description>
+        <externalId>false</externalId>
+        <label>Division Description</label>
+        <length>250</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>LOLDivision</label>
     <listViews>
         <fullName>All</fullName>
