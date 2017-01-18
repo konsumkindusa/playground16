@@ -19,6 +19,10 @@
                 <behavior>Edit</behavior>
                 <field>Land_O_Lakes_Checkbox__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>LOLDivisions__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

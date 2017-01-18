@@ -3403,8 +3403,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>LOLDivision__c.Division_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>LPD_And_CAG_Pricebook_Mapping__mdt.Material_Division__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Land_O_Lakes__c.LOLDivisions__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

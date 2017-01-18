@@ -991,6 +991,7 @@
         <members>LPD_And_CAG_Pricebook_Mapping__mdt.Material_Division__c</members>
         <members>Lab_Order__c.Accession_Number__c</members>
         <members>Lab_Order__c.Requisition_ID__c</members>
+        <members>Land_O_Lakes__c.LOLDivisions__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</members>
         <members>Lead.Address</members>
@@ -1329,6 +1330,7 @@
         <members>IntegrationLogSwitch__c</members>
         <members>Integration_Log__c</members>
         <members>LIMS__c</members>
+        <members>LOLDivision__c</members>
         <members>LPD_And_CAG_Pricebook_Mapping__mdt</members>
         <members>Lab_Order__c</members>
         <members>Land_O_Lakes__c</members>
