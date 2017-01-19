@@ -68,10 +68,12 @@
     <types>
         <members>BillTrustStatement</members>
         <members>Disable_Opportunity_Creation</members>
+        <members>LOLpage</members>
         <members>TableauTab</members>
         <name>ApexPage</name>
     </types>
     <types>
+        <members>HelloLOL</members>
         <members>UserTrigger</members>
         <name>ApexTrigger</name>
     </types>

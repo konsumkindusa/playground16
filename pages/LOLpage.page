@@ -1,0 +1,16 @@
+<apex:page sidebar="false" standardController="Land_O_Lakes__c" recordSetVar="LOLObjList">
+    <h1>
+        Hello from LOL
+    </h1>
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="A Section Title">
+            I'm three components deep!
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <apex:pageBlock title="LOL Summary">
+        <apex:pageBlockTable value="{! LOLObjList }" var="obj">
+            <apex:column value="{! obj.Name }"/>
+            <apex:column value="{! obj.id }"/>            
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
