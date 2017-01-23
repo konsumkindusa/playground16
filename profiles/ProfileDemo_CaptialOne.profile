@@ -56,6 +56,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.User_Reserved_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>LOLDivision__c.DivisionName__c</field>
         <readable>false</readable>
@@ -78,6 +83,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.User_Reserved_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -103,6 +113,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
