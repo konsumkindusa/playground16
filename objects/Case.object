@@ -461,6 +461,33 @@
         <label>All Open Cases</label>
     </listViews>
     <listViews>
+        <fullName>LOL_CaseView</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.PRIORITY</field>
+            <operation>equals</operation>
+            <value>High</value>
+        </filters>
+        <label>LOL CaseView</label>
+        <sharedTo>
+            <role>ChannelSalesTeam</role>
+            <role>CustomerSupportInternational</role>
+            <role>CustomerSupportNorthAmerica</role>
+            <role>DirectorChannelSales</role>
+            <role>DirectorDirectSales</role>
+            <role>EasternSalesTeam</role>
+            <role>InstallationRepairServices</role>
+            <role>MarketingTeam</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>LPD_EMEA_Customer_Service_Case</fullName>
         <filterScope>Queue</filterScope>
         <label>LPD EMEA Customer Service</label>

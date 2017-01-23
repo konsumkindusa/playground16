@@ -1631,6 +1631,7 @@
         <members>Campaign.MyActiveCampaigns</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
+        <members>Case.LOL_CaseView</members>
         <members>Case.LPD_EMEA_Customer_Service_Case</members>
         <members>Case.LPD_NA_Customer_Service_Case</members>
         <members>Case.LPD_Technical_Service_Inquiry_EMEA_Queue_Case</members>
