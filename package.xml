@@ -241,6 +241,7 @@
         <members>Activity.Task_Name__c</members>
         <members>Activity.Top_200_Account__c</members>
         <members>Activity.Type_of_Call__c</members>
+        <members>Activity.User_Reserved_Field__c</members>
         <members>Activity.selectedcampaign__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.ContactId</members>
@@ -1480,6 +1481,14 @@
         <members>IDEXX_OHS</members>
         <members>SAP_HANA</members>
         <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>Update_Contact_Address-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Update_Contact_Address</members>
+        <name>FlowDefinition</name>
     </types>
     <types>
         <members>Inside_Sales</members>

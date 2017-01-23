@@ -559,6 +559,13 @@
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <columns>ACCOUNT.SALES</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <columns>PARENT_NAME</columns>
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
