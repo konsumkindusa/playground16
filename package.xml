@@ -634,6 +634,7 @@
         <members>Lab_Order__c.Accession_Number__c</members>
         <members>Lab_Order__c.Requisition_ID__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</members>
+        <members>Land_O_Lakes__c.Land_O_Lakes_PicklistDemo_del__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>

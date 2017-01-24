@@ -64,6 +64,38 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Land_O_Lakes_PicklistDemo_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Land O Lakes Picklist</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Value01</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Value02</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Value03</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Value04</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Value05</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Land_O_Lakes_Picklist__c</fullName>
         <externalId>false</externalId>
         <label>Land O Lakes Picklist</label>
